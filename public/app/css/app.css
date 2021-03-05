@@ -39,9 +39,11 @@
     cursor: pointer;
     margin: 16px;
 }
+
 #live-chate div.chatbox-call {
     right: 60px;
 }
+
 #live-chate div.chatbox-close {
     position: fixed;
     bottom: 0;
@@ -249,14 +251,23 @@
 
 .call-page-form {
     height: auto;
-    width:auto;
+    width: auto;
     margin: auto;
     position: relative;
     top: 90px !important;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
+
 .single-service {
     display: flex;
+}
+
+#session_success {
+    position: fixed;
+    right: 15px;
+    top: 85px;
+    z-index: 9999;
+    height: auto !important;
 }
