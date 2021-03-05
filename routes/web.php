@@ -30,6 +30,4 @@ Route::get('/dashboard', \App\Http\Livewire\Admin\Dashboard\Dashboard::class)
  * Home
  */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('welcome');
+Route::get('/', \App\Http\Livewire\Guest\Home\Home::class)->name('welcome');
