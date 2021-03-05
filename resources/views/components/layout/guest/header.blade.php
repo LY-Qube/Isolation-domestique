@@ -16,7 +16,7 @@
                             <nav class="top-nav">
                                 <ul class="nav sf-menu">
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="{{ route('welcome') }}">Home</a>
                                     </li>
                                     <!-- eof pages -->
                                     <li>
@@ -55,7 +55,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="my-15 my-md-0 col-xl-2 col-md-4 col-11">
-                        <a href="#" class="logo" title="{{ config('app.name') }}">
+                        <a href="{{ route('welcome') }}" class="logo" title="{{ config('app.name') }}">
                             <img src="{{ asset('app/images/logo-eco.png') }}"
                                  alt="{{ config('app.name') }}"
                                  title="{{ config('app.name') }}">
@@ -67,7 +67,7 @@
                             <nav class="top-nav">
                                 <ul class="nav sf-menu">
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="{{ route('welcome') }}">Home</a>
                                     </li>
                                     <!-- eof pages -->
                                     <li>

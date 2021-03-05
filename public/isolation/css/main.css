@@ -9139,7 +9139,7 @@ img {
 .preloader_image {
 	-webkit-animation: animate-scale 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 	animation: animate-scale 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
-	background: url("../app/images/logo-eco.png") no-repeat 50% 50% transparent;
+	background: url("/app/images/logo-eco.png") no-repeat 50% 50% transparent;
 	height: 256px;
 	left: 50%;
 	margin: -128px 0 0 -128px;

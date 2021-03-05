@@ -59,8 +59,12 @@
 
 <div id="canvas">
     <div id="box_wrapper">
+        <!-- header -->
         <x-layout.guest.header/>
+        <!-- body -->
         {{ $slot }}
+        <!-- footer -->
+        <x-layout.guest.footer/>
     </div>
 </div>
 <!-- Scripts -->

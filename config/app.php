@@ -243,7 +243,8 @@ return [
         'address'           => "17, rue de Madagascar - 13006 Marseille",
         'phone'             => "09 74 59 70 01",
         'company_name'      => "Isolation Domestique",
-        'agent'             => "Alexander Pierce"
+        'agent'             => "Alexander Pierce",
+        'contact_mail'      => "contact@isolation-domestique.test"
     ]
 
 ];
