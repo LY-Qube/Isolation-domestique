@@ -16,4 +16,8 @@ class Identity extends Model
         return $this->hasOne(Call::class);
     }
 
+    public function contact()
+    {
+        return $this->hasOne(Contact::class);
+    }
 }

@@ -35,7 +35,10 @@ Route::get('/', \App\Http\Livewire\Guest\Home\Home::class)
     ->name('welcome');
 // Call
 
-
 Route::get('/call-me', \App\Http\Livewire\Call\CallMe::class)
     ->middleware('identity')
     ->name('call-me');
+
+// Map
+Route::post('department',[\App\Http\Controllers\Form\MapController::class, 'store'])
+    ->middleware(['throttle:60,1','identity']);

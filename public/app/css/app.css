@@ -41,6 +41,7 @@ div.chatbox-call {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 div.chatbox-call {
