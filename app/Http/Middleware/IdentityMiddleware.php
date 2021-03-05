@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 class IdentityMiddleware
 {
     use IdentityTrait;
+
     /**
      * Handle an incoming request.
      *

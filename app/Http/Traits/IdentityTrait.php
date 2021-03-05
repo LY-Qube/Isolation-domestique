@@ -82,4 +82,19 @@ trait IdentityTrait
 
         return false;
     }
+
+    protected function getIdentity()
+    {
+        // found actual cookie
+        $cookie = request()->cookie('Identity');
+        if ($cookie) {
+            // verify if exist in database //
+            $identity = Identity::where('identity', $cookie)->first();
+            if ($identity) {
+                return $identity;
+            }
+        }
+
+        return $this->createNewClient();
+    }
 }

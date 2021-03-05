@@ -33,3 +33,9 @@ Route::get('/dashboard', \App\Http\Livewire\Admin\Dashboard\Dashboard::class)
 Route::get('/', \App\Http\Livewire\Guest\Home\Home::class)
     ->middleware('identity')
     ->name('welcome');
+// Call
+
+
+Route::get('/call-me', \App\Http\Livewire\Call\CallMe::class)
+    ->middleware('identity')
+    ->name('call-me');

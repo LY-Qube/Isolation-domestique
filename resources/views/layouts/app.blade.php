@@ -67,6 +67,7 @@
         <!-- body -->
         {{ $slot }}
         <!-- footer -->
+            <x-layout.guest.call />
             <x-layout.guest.footer/>
     </div>
 </div>

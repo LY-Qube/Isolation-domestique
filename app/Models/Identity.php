@@ -11,4 +11,9 @@ class Identity extends Model
 
     protected $fillable = ['identity'];
 
+    public function call()
+    {
+        return $this->hasOne(Call::class);
+    }
+
 }

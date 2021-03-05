@@ -244,7 +244,8 @@ return [
         'phone'             => "09 74 59 70 01",
         'company_name'      => "Isolation Domestique",
         'agent'             => "Alexander Pierce",
-        'contact_mail'      => "contact@isolation-domestique.test"
+        'contact_mail'      => "contact@isolation-domestique.test",
+        'call_mail'         => "call@isolation-domestique.test"
     ]
 
 ];
