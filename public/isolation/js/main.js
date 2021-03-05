@@ -1624,7 +1624,7 @@
     $(function () {
         $(' #gallery-direction > .gallery-hover').hoverdir();
     });
-
+/*
 
     if ( document.getElementById('map-vector') ) {
         $('#map-vector').vectorMap({
@@ -1657,7 +1657,7 @@
         });
 
     };
-
+*/
 //wrap select fields
     jQuery('select').each(function() {
         var s = jQuery(this);

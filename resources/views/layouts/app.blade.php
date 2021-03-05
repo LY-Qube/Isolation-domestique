@@ -67,7 +67,7 @@
         <!-- body -->
         {{ $slot }}
         <!-- footer -->
-        <x-layout.guest.footer/>
+            <x-layout.guest.footer/>
     </div>
 </div>
 <!-- Scripts -->
@@ -77,7 +77,7 @@
 @stack('scripts')
 <script src="{{ asset('isolation/js/main.js') }}"></script>
 <script src="{{ asset('isolation/js/switcher.js') }}"></script>
-<script src="{{ asset('isolation/js/live-chate.js') }}"></script>
+<script src="{{ asset('app/js/app.js') }}"></script>
 
 </body>
 

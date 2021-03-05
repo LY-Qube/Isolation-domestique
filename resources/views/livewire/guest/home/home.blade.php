@@ -1,3 +1,3 @@
 <div>
-    Home
+    <x-home.slider />
 </div>
