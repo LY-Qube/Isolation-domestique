@@ -13,7 +13,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="info">
-                    <a href="#" class="d-block">{{ config('app.data.agent') }}</a>
+                    <a href="#" class="d-block">Admin</a>
                 </div>
             </div>
 
@@ -28,24 +28,6 @@
                             <i class="nav-icon fas fa-users"></i>
                             <p>
                                 Contact
-                                {{--
-                                @if ($countContacts > 0)
-                                    <span class="badge badge-danger right">{{ $countContacts }}</span>
-                                @endif
-                                --}}
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="nav-icon fas fa-comments"></i>
-                            <p>
-                                Messages
-                                {{--
-                                @if ($countMessages > 0)
-                                    <span class="badge badge-danger right">{{ $countMessages }}</span>
-                                @endif
-                                --}}
                             </p>
                         </a>
                     </li>

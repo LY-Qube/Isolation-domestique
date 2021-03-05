@@ -26,6 +26,12 @@ Route::get('/dashboard', \App\Http\Livewire\Admin\Dashboard\Dashboard::class)
     ->middleware(['auth', 'identity'])
     ->name('dashboard');
 
+// Contact Download
+
+Route::get('/contact/download', \App\Http\Livewire\Admin\Contact\Download::class)
+    ->middleware(['auth'])
+    ->name('contact.download');
+
 /*
  * Home
  */
