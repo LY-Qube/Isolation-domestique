@@ -8,14 +8,14 @@ use App\Http\Controllers\Auth\AuthenticatedSessionController;
  */
 
 Route::get('/login', [AuthenticatedSessionController::class, 'create'])
-    ->middleware('guest')
+    ->middleware(['guest', 'identity'])
     ->name('login');
 
 Route::post('/login', [AuthenticatedSessionController::class, 'store'])
-    ->middleware('guest');
+    ->middleware(['guest', 'identity']);
 
 Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
-    ->middleware('auth')
+    ->middleware(['auth', 'identity'])
     ->name('logout');
 
 /*
@@ -23,11 +23,13 @@ Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
  */
 
 Route::get('/dashboard', \App\Http\Livewire\Admin\Dashboard\Dashboard::class)
-    ->middleware(['auth'])
+    ->middleware(['auth', 'identity'])
     ->name('dashboard');
 
 /*
  * Home
  */
 
-Route::get('/', \App\Http\Livewire\Guest\Home\Home::class)->name('welcome');
+Route::get('/', \App\Http\Livewire\Guest\Home\Home::class)
+    ->middleware('identity')
+    ->name('welcome');
