@@ -59,6 +59,9 @@
 
 <div id="canvas">
     <div id="box_wrapper">
+        @if(session('success'))
+            <x-layout.guest.session-success/>
+        @endif
         <!-- header -->
         <x-layout.guest.header/>
         <!-- body -->
