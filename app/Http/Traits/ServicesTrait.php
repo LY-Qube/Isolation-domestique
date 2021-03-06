@@ -11,34 +11,34 @@ trait ServicesTrait
     {
         $this->services = [
             [
-                'url'     => "#",
+                'url'     => "services.combles-perdus",
                 'title'   => "ISOLATION DES COMBLES PERDUS À 1 €",
-                'image'   => "images/gallery/14.jpg"
+                'image'   => "isolation/images/gallery/14.jpg"
             ],
             [
-                'url'     => "#",
+                'url'     => "services.combles-amenageables",
                 'title'   => "ISOLATION DES COMBLES AMÉNAGEABLES À 1 €",
-                'image'   => "images/gallery/16.jpg"
+                'image'   => "isolation/images/gallery/16.jpg"
             ],
             [
-                'url'     => "#",
+                'url'     => "services.vide-sanitaire",
                 'title'   => "ISOLATION DES VIDES SANITAIRES À 1 €",
-                'image'   => "images/gallery/13.jpg"
+                'image'   => "isolation/images/gallery/13.jpg"
             ],
             [
-                'url'     => "#",
+                'url'     => "services.garage",
                 'title'   => "ISOLATION DES SOUS-SOLS, CAVES À 1 €",
-                'image'   => "images/gallery/15.jpg"
+                'image'   => "isolation/images/gallery/15.jpg"
             ],
             [
-                'url'     => "#",
+                'url'     => "services.murs",
                 'title'   => "ISOLATION DES MURS INTERIEURS À 1 €",
-                'image'   => "images/gallery/17.jpg"
+                'image'   => "isolation/images/gallery/17.jpg"
             ],
             [
-                'url'     => "#",
+                'url'     => "services.renovation",
                 'title'   => "RENOVATION THERMIQUE GLOBALE",
-                'image'   => "images/gallery/renovation_thermique.jpg"
+                'image'   => "isolation/images/gallery/renovation_thermique.jpg"
             ],
         ];
     }

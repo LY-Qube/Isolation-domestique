@@ -52,6 +52,10 @@ Route::get('/call-me', \App\Http\Livewire\Call\CallMe::class)
 Route::post('department',[\App\Http\Controllers\Form\MapController::class, 'store'])
     ->middleware(['throttle:60,1','identity']);
 
+// E-book
+Route::middleware(['throttle:60,1','identity'])->get('e-book',\App\Http\Livewire\Ebook\Ebook::class)->name('book');
+Route::middleware(['throttle:60,1','identity'])->get('e-book/form',\App\Http\Livewire\Ebook\EbookForm::class)->name('book.form');
+
 // services
 
 Route::middleware(['throttle:60,1','identity'])->group(function (){

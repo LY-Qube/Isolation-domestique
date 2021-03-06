@@ -24,7 +24,10 @@
                                         <ul>
                                             @foreach($services as $service)
                                                 <li>
-                                                    <a href="#">{{ $service['title'] }}</a>
+                                                    <a href="{{ route($service['url']) }}"
+                                                       title="{{ $service['title']  }}">
+                                                        {{ $service['title'] }}
+                                                    </a>
                                                 </li>
                                             @endforeach
                                         </ul>
@@ -75,7 +78,10 @@
                                         <ul>
                                             @foreach($services as $service)
                                                 <li>
-                                                    <a href="#">{{ $service['title'] }}</a>
+                                                    <a href="{{ route($service['url']) }}"
+                                                       title="{{ $service['title']  }}">
+                                                        {{ $service['title']  }}
+                                                    </a>
                                                 </li>
                                             @endforeach
                                         </ul>

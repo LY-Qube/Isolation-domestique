@@ -14,7 +14,7 @@ class AddToContactAnah extends Migration
     public function up()
     {
         Schema::table('contacts', function (Blueprint $table) {
-            $table->string('anah');
+            $table->string('anah')->nullable();
         });
     }
 
