@@ -32,6 +32,9 @@ Route::get('/contact/download', \App\Http\Livewire\Admin\Contact\Download::class
     ->middleware(['auth'])
     ->name('contact.download');
 
+// verification Email
+Route::get('verification_email/{email}',\App\Http\Controllers\VerificationEmailController::class);
+
 /*
  * Home
  */
