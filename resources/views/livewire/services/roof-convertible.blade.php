@@ -25,16 +25,20 @@
                             <div class="col-md-6">
                                 <img src="{{ asset($images) }}" alt="">
                             </div>
-                            <div class="col-md-6 pl-5 text-justify">
+                            <div class="col-md-6 pl-5">
                                 <h4 class="text-primary">{{ $title }}</h4>
                                 <p class="text-justify">
-                                    L’isolation des combles pour 1 € requiert des critères d’éligibilité axés entre-autre sur les revenus du foyer en question.
+                                    L’isolation des combles pour 1 € requiert des critères d’éligibilité axés,
+                                    notemment, sur les revenus du foyer en question.
                                 </p>
                                 <p class="text-justify">
-                                    Même si vos revenus sont trop élevés pour une isolation de vos combles à 1 €, vous pouvez bénéficier de subventions.
+                                    Même si vos revenus sont trop élevés pour une isolation de vos combles à 1 €, vous
+                                    pouvez bénéficier de subventions.
                                 </p>
                                 <p class="text-justify">
-                                    En effet, pour isoler ses combles aménageables, en isole directement la sous-toiture (sous-rampants) puis en recouvre de plaques de BA-13.
+                                    En effet, pour isoler ses combles aménageables, on isole directement la sous-toiture
+                                    (sous-rampants), puis on recouvre de plaques de BA-13.
+                                    (sous-rampants), puis on recouvre de plaques de BA-13.
                                 </p>
                                 <p class="text-justify">
                                     Nous pouvons également isoler vos pignons

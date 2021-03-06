@@ -22,10 +22,10 @@
                 <div class="col-12">
                     <div class="">
                         <div class="row">
-                            <div class="col-md-6 pl-5 text-justify" id="x1x1">
+                            <div class="col-md-6 pl-5" id="x1x1">
                                 <h4 class="text-primary">{{ $title }}</h4>
                                 L’isolation de vos sous-sols et planchers bas pour 1 € requiert des critères
-                                d’éligibilité axés entre-autre sur les revenus du foyer en question.
+                                d’éligibilité axés, notemment, sur les revenus du foyer en question.
                                 <p>
                                     Même si vos revenus sont trop élevés pour une isolation de vos sous-sols et
                                     planchers bas à 1 €, vous pouvez bénéficier de subventions.

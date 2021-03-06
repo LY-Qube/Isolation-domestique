@@ -3,7 +3,7 @@
         <div class="row">
             <div class="px-60 pt-55 pb-60 box-shadow ls col-md-6 offset-md-3">
                 <h4 class="special-heading">
-                    Appellez-Moi
+                    Appellez-moi
                 </h4>
                 <div class="divider-30 divider-lg-55"></div>
                 <form class="call-form c-mb-10 c-gutter-10" wire:submit.prevent="save">
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group">
-                                <label for="day">Appel Moi <span class="required">*</span></label>
+                                <label for="day">Appellez-moi <span class="required">*</span></label>
                                 <select name="day" id="day" wire:model="call.day"
                                         class="form-control @error('call.day') border-danger @enderror">
                                     <option value="">-------</option>
@@ -82,7 +82,7 @@
                         <div class="col-12">
                             <div class="form-group ">
                                 <button type="submit"
-                                        class="btn btn-small with-icon btn-maincolor">Appellez-Moi</button>
+                                        class="btn btn-small with-icon btn-maincolor">Appellez-moi</button>
                             </div>
                         </div>
 

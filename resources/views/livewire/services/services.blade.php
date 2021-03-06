@@ -17,13 +17,13 @@
                                  class="gallery-item-extended horizontal-item count-item cs venting attic-insulation">
                                 <div class="item-content">
                                     <h6 class="item-title">
-                                        <a href="{{ asset($service['url']) }}"
+                                        <a href="{{ route($service['url']) }}"
                                            title="{{ $service['title'] }}">
                                             {{ $service['title'] }}
                                         </a>
                                     </h6>
 
-                                    <a href="{{ asset($service['url']) }}"
+                                    <a href="{{ route($service['url']) }}"
                                        title="{{ $service['title'] }}"
                                        class="btn-link btn-absolute with-icon item-button">
                                         Lire Plus ...

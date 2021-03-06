@@ -5,7 +5,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="my-15 my-md-0 col-xl-2 col-md-4 col-11">
-                        <a href="{{ asset('welcome') }}" class="logo">
+                        <a href="{{ route('welcome') }}" class="logo">
                             <img src="{{ asset('app/images/logo-eco.png') }}" alt="{{ config('app.name') }}"
                                  title="{{ config('app.name') }}">
                         </a>

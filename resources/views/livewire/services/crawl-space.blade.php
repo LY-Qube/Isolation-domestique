@@ -25,11 +25,11 @@
                             <div class="col-md-6">
                                 <img src="{{ asset($images) }}" alt="">
                             </div>
-                            <div class="col-md-6 pl-5 text-justify">
+                            <div class="col-md-6 pl-5">
                                 <h4 class="text-primary">{{ $title }}</h4>
                                 <p class="text-justify">
-                                    L’isolation des combles pour 1 € requiert des critères d’éligibilité axés
-                                    entre-autre sur les revenus du foyer en question.
+                                    L’isolation du vide sanitaire pour 1 € requiert des critères d’éligibilité axés,
+                                    notemment, sur les revenus du foyer en question.
                                 </p>
                                 <p class="text-justify">
                                     Même si vos revenus sont trop élevés pour une isolation de vos combles à 1 €, vous

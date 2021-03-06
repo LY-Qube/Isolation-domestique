@@ -53,7 +53,7 @@
                                     Vendredi
                                 </div>
                                 <div class="col-6">
-                                    <span class="color-darkgrey">10:00 - 20:00</span>
+                                    <span class="color-darkgrey">10:00 - 19:00</span>
                                 </div>
                             </li>
 
@@ -62,7 +62,7 @@
                                     Samedi
                                 </div>
                                 <div class="col-6">
-                                    <span class="color-darkgrey">Fermer</span>
+                                    <span class="color-darkgrey">Fermé</span>
                                 </div>
                             </li>
 
@@ -71,7 +71,7 @@
                                     Dimanche
                                 </div>
                                 <div class="col-6">
-                                    <span class="color-darkgrey">Fermer</span>
+                                    <span class="color-darkgrey">Fermé</span>
                                 </div>
                             </li>
 
@@ -119,8 +119,6 @@
                 </div>
                 <div class="col-md-6 text-center text-md-right  animate" data-animation="fadeInUp">
                     <div class="widget widget_nav_menu">
-                        <a href="#">Terms et Conditions</a>
-                        <a href="#">Politique d'utilisation</a>
                     </div>
                 </div>
             </div>

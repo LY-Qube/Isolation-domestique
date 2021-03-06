@@ -25,7 +25,7 @@
                             <div class="col-md-6">
                                 <img src="{{ asset($images) }}" alt="">
                             </div>
-                            <div class="col-md-6 pl-5 text-justify">
+                            <div class="col-md-6 pl-5">
                                 <h4 class="text-primary">{{ $title }}</h4>
                                 <p>
                                     Comme sont nom l’indique il s’agit de faire un diagnostique thermique complet de

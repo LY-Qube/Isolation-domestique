@@ -8,7 +8,7 @@
                 <div class="col-md-7 col-lg-5 col-xl-6">
                     <div class="divider-25 divider-md-0"></div>
                     <p>Des services d’isolation fiables.
-                        Nous ne sommes pas seulement une entreprise d’isolation.
+                        Nous ne sommes pas seulement une entreprise d’isolation,
                         Nous isolons les rêves.</p>
                 </div>
                 <div class="col-lg-4">
@@ -32,7 +32,7 @@
                             </a>
                             <div class="step-content mt-20">
                                 <p>
-                                    <a href="#">Obtenez votre visite technique gratuit et sans engagement.</a>
+                                    <a href="#">Obtenez votre visite technique gratuite et sans engagement.</a>
                                 </p>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <i class="fa fa-circle"></i>
                             </a>
                             <div class="step-content mt-20">
-                                <p>Économiser Vos Factures</p>
+                                <p>Économisez sur vos factures</p>
                             </div>
                         </div>
                         <i class="ico-step text-right ico ico-finish color-dark fs-40"></i>

@@ -25,7 +25,7 @@
                             </div>
                             <div class="col-md-6 pl-5 text-justify">
                                 <h4 class="text-primary">Murs intérieurs</h4>
-                                L’isolation des murs pour 1 € requiert des critères d’éligibilité axés entre autre sur
+                                L’isolation des murs pour 1 € requiert des critères d’éligibilité axés, notemment, sur
                                 les revenus du foyers en question.
                                 <br>
                                 <br>

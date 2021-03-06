@@ -1,24 +1,3 @@
-/*
-==============================================
-CSS3 ANIMATION CHEAT SHEET
-==============================================
-
-Made by Justin Aguilar
-
-www.justinaguilar.com/animations/
-
-Questions, comments, concerns, love letters:
-justin@justinaguilar.com
-==============================================
-*/
-
-/*
-==============================================
-slideDown
-==============================================
-*/
-
-
 .slideDown{
 	animation-name: slideDown;
 	-webkit-animation-name: slideDown;
@@ -73,12 +52,6 @@ slideDown
 		-webkit-transform: translateY(0%);
 	}
 }
-
-/*
-==============================================
-slideUp
-==============================================
-*/
 
 
 .slideUp{
@@ -136,11 +109,6 @@ slideUp
 	}
 }
 
-/*
-==============================================
-slideLeft
-==============================================
-*/
 
 
 .slideLeft{
@@ -198,11 +166,6 @@ slideLeft
 	}
 }
 
-/*
-==============================================
-slideRight
-==============================================
-*/
 
 
 .slideRight{

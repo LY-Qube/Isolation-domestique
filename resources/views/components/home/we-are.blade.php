@@ -26,7 +26,7 @@
                                     <h6>
                                         <a href="#">Notre objectif </a>
                                     </h6>
-                                    <p class="text-justify">
+                                    <p >
                                         Lutter contre le réchauffement climatique, notamment en diminuant
                                         les déperditions de chaleur au sein des logements des Français.
                                     </p>
@@ -45,7 +45,7 @@
                                             La mission que nous<br> nous sommes fixés
                                         </a>
                                     </h6>
-                                    <p class="text-justify">
+                                    <p>
                                         Mettre en relation, de façon sécurisée, les particuliers souhaitant faire isoler
                                         leur habitation, avec les meilleurs professionnels recensés comme étant agréés
                                         pour participer au programme gouvernemental d’isolation à 1 €.
@@ -63,12 +63,12 @@
                                     <h6>
                                         <a href="#">Notre méthode</a>
                                     </h6>
-                                    <p class="text-justify">
+                                    <p>
                                         Sélectionner les professionnels de l’isolation thermique. Vérifier qu’ils sont
                                         dûment recensés comme faisant partie des entreprises Reconnues Garantes de
                                         l’Environnement (RGE), à jour de leur garantie décennale. Nous vérifions ensuite
                                         qu’ils sont bien recensés sur la plateforme gouvernementale
-                                        <a href="www.faire.gouv.fr">faire.gouv.fr</a>.
+                                        <a href="http://www.faire.gouv.fr" target="_blank">faire.gouv.fr</a>.
                                     </p>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                                     <h6>
                                         <a href="#">Pour finir</a>
                                     </h6>
-                                    <p class="text-justify">
+                                    <p>
                                         Reste à vérifier l’éligibilité des particuliers souhaitant bénéficier de ce
                                         programme, puis à fixer un rendez-vous avec l’entreprise retenue pour réaliser
                                         les travaux d’isolation.
