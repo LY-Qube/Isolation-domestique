@@ -51,3 +51,27 @@ Route::get('/call-me', \App\Http\Livewire\Call\CallMe::class)
 // Map
 Route::post('department',[\App\Http\Controllers\Form\MapController::class, 'store'])
     ->middleware(['throttle:60,1','identity']);
+
+// services
+
+Route::middleware(['throttle:60,1','identity'])->group(function (){
+
+    Route::get('combles-perdus',\App\Http\Livewire\Services\RoofLost::class)
+        ->name('services.combles-perdus');
+
+    Route::get('combles-amenageables-et-sous-rampants',\App\Http\Livewire\Services\RoofConvertible::class)
+        ->name('services.combles-amenageables');
+
+    Route::get('vide-sanitaire',\App\Http\Livewire\Services\CrawlSpace::class)
+        ->name('services.vide-sanitaire');
+
+    Route::get('sous-sol-et-cave-garage',\App\Http\Livewire\Services\Garage::class)
+        ->name('services.garage');
+
+    Route::get('murs',\App\Http\Livewire\Services\Murs::class)
+        ->name('services.murs');
+
+    Route::get('renovation',\App\Http\Livewire\Services\Renovation::class)
+        ->name('services.renovation');
+
+});
