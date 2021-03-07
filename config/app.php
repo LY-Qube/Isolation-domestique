@@ -174,7 +174,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        App\Providers\TelescopeServiceProvider::class,
 
 
        Maatwebsite\Excel\ExcelServiceProvider::class,
@@ -250,8 +249,8 @@ return [
         'phone'             => "09 74 59 70 01",
         'company_name'      => "Isolation Domestique",
         'agent'             => "Alexander Pierce",
-        'contact_mail'      => "contact@isolation-domestique.test",
-        'call_mail'         => "call@isolation-domestique.test"
+        'contact_mail'      => "contact@isolation-domestique.kodisaf.com",
+        'call_mail'         => "call@isolation-domestique.kodisaf.com"
     ]
 
 ];
