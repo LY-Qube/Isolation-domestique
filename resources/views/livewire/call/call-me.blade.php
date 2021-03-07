@@ -79,8 +79,18 @@
                         </div>
                     </div>
                     <div class="row mt-20 mt-xl-50">
+
                         <div class="col-12">
-                            <div class="form-group ">
+                            <div wire:loading  wire:target="save">
+                                <div class="row mt-35 mb-5">
+                                    <div class="col-sm-12">
+                                        <div class="form-group text-center">
+                                            Enregistrement des Données ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group "  wire:loading.remove wire:target="save">
                                 <button type="submit"
                                         class="btn btn-small with-icon btn-maincolor">Appellez-moi</button>
                             </div>
