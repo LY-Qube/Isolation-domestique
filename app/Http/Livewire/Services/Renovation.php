@@ -8,7 +8,7 @@ class Renovation extends Component
 {
     public $title = "Rénovation thermique globale";
 
-    public $images = "isolation/images/gallery/renovation_thermique.jpg";
+    public $images = "app/images/full/renovation_thermique.webp";
 
     public function render()
     {

@@ -6,7 +6,11 @@
 
                     <div class="widget widget_text">
                         <a href="/" class="logo" style="max-width: 150px;margin: auto;">
-                            <img src="{{ asset('app/images/logo-eco.png') }}" alt="Isolation Domestique">
+                            <img src="{{ asset('app/images/full/logo-eco.webp') }}"
+                                 width="150"
+                                 height="110"
+                                 title="{{ config('app.name') }}"
+                                 alt="{{ config('app.name') }}">
                         </a>
                     </div>
                 </div>

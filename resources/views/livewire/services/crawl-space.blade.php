@@ -23,10 +23,12 @@
                     <div class="">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="{{ asset($images) }}" alt="">
+                                <img src="{{ asset($images) }}"
+                                     title="{{ $title }}"
+                                     alt="{{ $title }}">
                             </div>
                             <div class="col-md-6 pl-5">
-                                <h4 class="text-primary">{{ $title }}</h4>
+                                <h2 style="font-size: 2.1em" class="text-primary">{{ $title }}</h2>
                                 <p class="text-justify">
                                     L’isolation du vide sanitaire pour 1 € requiert des critères d’éligibilité axés,
                                     notemment, sur les revenus du foyer en question.
@@ -41,7 +43,6 @@
                                 <p class="text-justify">
                                     Effectivement lorsque l’on isole un vide sanitaire, nous cherchons à laisser un
                                     espace d’air entre l’isolant et le terrain car l’air renforce l’isolation.
-
                                 </p>
                                 <p class="text-justify">
                                     Dans un sous-sol non chauffé, nous allons coller l’isolant directement au plafond de

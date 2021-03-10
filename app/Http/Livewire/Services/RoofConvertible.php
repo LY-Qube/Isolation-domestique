@@ -8,7 +8,7 @@ class RoofConvertible extends Component
 {
     public $title = "Isolation des combles aménageables, Sous-rampants";
 
-    public $images = "isolation/images/gallery/13.jpg";
+    public $images = "app/images/full/13.webp";
 
     public function render()
     {

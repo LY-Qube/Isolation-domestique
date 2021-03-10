@@ -73,13 +73,13 @@
 </div>
 <!-- Scripts -->
 
-<script src="{{ asset('isolation/js/compressed.js') }}" defer></script>
-@livewireScripts
 @stack('scripts')
-<script src="{{ asset('isolation/js/main.js') }}" defer></script>
-<script src="{{ asset('isolation/js/switcher.js') }}" defer></script>
-<script src="{{ asset('app/js/app.js') }}" defer></script>
+<script src="{{ asset('isolation/js/compressed.js') }}" ></script>
+<script src="{{ asset('isolation/js/main.js') }}" ></script>
+<script src="{{ asset('isolation/js/switcher.js') }}" ></script>
+<script src="{{ asset('app/js/app.js') }}" ></script>
 
+@livewireScripts
 <!-- Start of LiveChat (www.livechatinc.com) code -->
 <script defer>
     window.__lc = window.__lc || {};

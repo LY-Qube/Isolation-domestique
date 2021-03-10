@@ -8,7 +8,7 @@ class RoofLost extends Component
 {
     public $title = "Isolation des combles perdus";
 
-    public $images = "isolation/images/gallery/14.jpg";
+    public $images = "app/images/full/14.webp";
 
     public function render()
     {

@@ -20,9 +20,10 @@
                          data-dots="false" data-animateout="fadeOut">
                         <div class="quote-item hero-bg box-shadow">
                             <div class="quote-image">
-                                <img src="{{ asset('isolation/images/cover-ebook.jpg') }}" style="max-width:90%!important;min-height:
-                                90%!important;"
-                                     alt="">
+                                <img src="{{ asset('app/images/full/cover-ebook.webp') }}"
+                                     width="225" height="319"
+                                     style="max-width:90%!important;min-height: 90%!important;"
+                                     alt="L'isolation Thermique" title="L'isolation Thermique">
                             </div>
                             <div class="quote-content mt-5 mb-5">
                                 <blockquote class="fs-20">
@@ -33,7 +34,8 @@
                                     complet pour aborder sereinement ses travaux de rénovation Thermique.
                                 </blockquote>
                                 <div class="divider-30 divider-lg-40"></div>
-                                <a href="{{ route('book') }}" class="btn btn-wide btn-small btn-maincolor">
+                                <a href="{{ route('book') }}" title="L'isolation Thermique"
+                                   class="btn btn-wide btn-small btn-maincolor">
                                     Je télécharge &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-download"></i>
                                 </a>
                             </div>

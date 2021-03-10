@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class Murs extends Component
 {
-    public $image = "isolation/images/services/mur.jpg";
+    public $image = "app/images/full/17.webp";
 
     public $title = "Isolation Des Murs Attenants";
 

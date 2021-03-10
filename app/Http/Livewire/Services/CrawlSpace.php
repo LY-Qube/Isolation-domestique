@@ -8,7 +8,7 @@ class CrawlSpace extends Component
 {
     public $title = "Isolation des vides sanitaires";
 
-    public $images = "isolation/images/gallery/16.jpg";
+    public $images = "app/images/full/16.webp";
 
     public function render()
     {

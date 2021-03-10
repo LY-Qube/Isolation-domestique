@@ -5,8 +5,13 @@
                 <!-- logo and name -->
                 <div class="col-12 col-lg-4 text-center">
                     <div class="divider-lg-15"></div>
-                    <img src="{{ asset('app/images/logo-eco.png') }}" alt="{{ config('app.name') }}">
+                    <img src="{{ asset('app/images/full/logo-eco.webp') }}"
+                         width="237" height="173"
+                         title="{{ config('app.name') }}"
+                         alt="{{ config('app.name') }}">
+
                     <div class="divider-40 divider-lg-65"></div>
+
                     <h4 class="special-heading text-center">
                         <span>Isolation</span> <span>Domestique</span>
                     </h4>

@@ -22,8 +22,8 @@
                 <div class="col-12">
                     <div class="">
                         <div class="row">
-                            <div class="col-md-6 pl-5" id="x1x1">
-                                <h4 class="text-primary">{{ $title }}</h4>
+                            <div class="col-md-6 pl-5" >
+                                <h2 style="font-size: 2.1em" class="text-primary">{{ $title }}</h2>
                                 L’isolation de vos sous-sols et planchers bas pour 1 € requiert des critères
                                 d’éligibilité axés, notemment, sur les revenus du foyer en question.
                                 <p>
@@ -42,7 +42,7 @@
                                     L’artisan qui intervient doit être certifié RGE dans le domaine de la pose
                                     d’isolants thermique.
                                 </p>
-                                <h4 class="text-primary">{{ $title2 }}</h4>
+                                <h2 style="font-size: 2.1em" class="text-primary">{{ $title2 }}</h2>
                                 <p>
                                     L’isolation d’un garage va dépendre de sa localisation relative à votre maison.
                                 </p>
@@ -58,7 +58,9 @@
                                 </p>
                             </div>
                             <div class="col-md-6">
-                                <img src="{{ asset($images) }}" alt="">
+                                <img src="{{ asset($images) }}"
+                                     title="{{ $title }}"
+                                     alt="{{ $title }}">
                             </div>
                         </div>
                     </div>

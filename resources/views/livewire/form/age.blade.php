@@ -6,7 +6,7 @@
         <form class="c-mb-15 c-gutter-15" wire:submit.prevent="save">
             <div class="row form-card">
                 @foreach($values as $key => $value)
-                    <div class="col-sm-6 col-md-2 @if($key===0) offset-md-1 @endif">
+                    <div class="col-sm-6 col-md-2 @if($key===0) offset-md-2 @endif">
                         <a href="#" class="form-border @if($age === $value) card-active @endif"
                            wire:click="changeValue('{{$value}}')">
                             <div class="media hero-bg rounded" style="height:130px !important;">

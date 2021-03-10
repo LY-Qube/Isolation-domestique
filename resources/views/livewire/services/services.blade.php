@@ -30,13 +30,13 @@
                                     </a>
                                 </div>
                                 <div class="item-media">
-                                    <img src="{{ asset($service['image']) }}"
+                                    <img src="{{ asset($service['image']) }}" width="300" height="380"
                                          title="{{ $service['title'] }}"
                                          alt="{{ $service['title'] }}">
                                     <div class="media-links">
                                         <a class="abs-link"
                                            title="{{ $service['title'] }}"
-                                           href="{{ asset($service['url']) }}"></a>
+                                           href="{{ route($service['url']) }}"></a>
                                     </div>
                                 </div>
                             </div>

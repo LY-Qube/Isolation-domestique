@@ -6,7 +6,9 @@
                 <div class="row align-items-center">
                     <div class="my-15 my-md-0 col-xl-2 col-md-4 col-11">
                         <a href="{{ route('welcome') }}" class="logo">
-                            <img src="{{ asset('app/images/logo-eco.png') }}" alt="{{ config('app.name') }}"
+                            <img src="{{ asset('app/images/min/logo-eco.webp') }}"
+                                 alt="{{ config('app.name') }}"
+                                 width="89" height="65"
                                  title="{{ config('app.name') }}">
                         </a>
                     </div>
@@ -59,8 +61,9 @@
                 <div class="row align-items-center">
                     <div class="my-15 my-md-0 col-xl-2 col-md-4 col-11">
                         <a href="{{ route('welcome') }}" class="logo" title="{{ config('app.name') }}">
-                            <img src="{{ asset('app/images/logo-eco.png') }}"
+                            <img src="{{ asset('app/images/min/logo-eco.webp') }}"
                                  alt="{{ config('app.name') }}"
+                                 width="89" height="65"
                                  title="{{ config('app.name') }}">
                         </a>
                     </div>

@@ -19,7 +19,7 @@
                     <div class="steps-alt">
                         <i class="ico-step text-left ico ico-start color-dark fs-40"></i>
                         <div class="step">
-                            <a href="#" class="step-dot">
+                            <a href="#" title="Inscription en Ligne" class="step-dot">
                                 <i class="fa fa-circle"></i>
                             </a>
                             <div class="step-content mt-20">
@@ -27,7 +27,8 @@
                             </div>
                         </div>
                         <div class="step">
-                            <a href="#" class="step-dot">
+                            <a href="#" title="Obtenez votre visite technique gratuite et sans engagement."
+                               class="step-dot">
                                 <i class="fa fa-circle"></i>
                             </a>
                             <div class="step-content mt-20">
@@ -37,7 +38,7 @@
                             </div>
                         </div>
                         <div class="step">
-                            <a href="#" class="step-dot">
+                            <a href="#" title="Économisez sur vos factures" class="step-dot">
                                 <i class="fa fa-circle"></i>
                             </a>
                             <div class="step-content mt-20">

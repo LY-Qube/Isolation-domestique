@@ -23,10 +23,12 @@
                     <div class="">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="{{ asset($images) }}" alt="">
+                                <img src="{{ asset($images) }}"
+                                     title="{{ $title }}"
+                                     alt="{{ $title }}">
                             </div>
                             <div class="col-md-6 pl-5">
-                                <h4 class="text-primary">{{ $title }}</h4>
+                                <h2 style="font-size: 2.1em" class="text-primary">{{ $title }}</h2>
                                 <p>
                                     Comme sont nom l’indique il s’agit de faire un diagnostique thermique complet de
                                     votre

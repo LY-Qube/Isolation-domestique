@@ -7,8 +7,11 @@
                          data-autoplay="false" data-loop="true" data-responsive-xs="1" data-responsive-sm="1"
                          data-responsive-md="1" data-responsive-lg="1" data-animateout="fadeOut">
 
-                        <img src="{{ asset('isolation/images/isolation-services/isolation-service.jpg') }}" alt="">
-
+                        <img src="{{ asset('app/images/full/isolation-service.webp') }}"
+                             width="570"
+                             height="466"
+                             title="QU'EST-CE QUE L'ISOLATION À 1€ ?"
+                             alt="QU'EST-CE QUE L'ISOLATION À 1€ ?">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-5 ml-xl-70 order-1 order-md-2 animate" data-animation="fadeInRight">
@@ -39,7 +42,7 @@
                         contre le réchauffement climatique.
                     </p>
                     <div class="divider-30 divider-lg-50"></div>
-                    <a href="#" class="btn btn-small btn-maincolor with-icon">D'accord Je M'inscrit</a>
+                    <a href="#" title="D'accord Je M'inscrit" class="btn btn-small btn-maincolor with-icon">D'accord Je M'inscrit</a>
                 </div>
 
             </div>

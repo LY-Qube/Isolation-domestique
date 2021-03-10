@@ -1,13 +1,12 @@
 <div>
-    <section class="ls s-py-xl-0 container-px-0 contacts-section">
-
+    <section class="ls  container-px-0 contacts-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="ls page_map absolute_map">
                     </div>
-                    <div class="divider-40 divider-lg-0"></div>
                 </div>
+                <div class="divider-40 divider-lg-0"></div>
                 <div class="ls col-xl-3 px-30 custom-col-absolute">
                     <h4 class="special-heading">Contact Information</h4>
                     <div class="divider-40 divider-lg-50"></div>

@@ -23,7 +23,7 @@
                                 un appareil d’appoint. Ça coûte cher !
                             </p>
                             <div class="divider-30 divider-lg-50"></div>
-                            <a href="#" class="btn btn-small btn-maincolor with-icon">D'accord Je M'inscrit</a>
+                            <a href="#" title="D'accord Je M'inscrit" class="btn btn-small btn-maincolor with-icon">D'accord Je M'inscrit</a>
                         </div>
                     </div>
                     <div class="divider-40 divider-lg-0"></div>
@@ -35,9 +35,13 @@
                          data-animateout="fadeOut">
 
                         <div class="service-image">
-                            <img src="{{ asset('isolation/images/maison-legende.png') }}" alt="">
+                            <img src="{{ asset('app/images/full/maison-legende.webp') }}"
+                                 width="570"
+                                 height="700"
+                                 title="Diminuez votre facture d’énergie"
+                                 alt="Diminuez votre facture d’énergie">
                             <div class="media-links">
-                                <a class="abs-link" href="#"></a>
+                                <a class="abs-link" title="D'accord Je M'inscrit" href="#"></a>
                             </div>
                         </div>
                     </div>
