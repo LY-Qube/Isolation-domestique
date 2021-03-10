@@ -21,8 +21,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <link rel="stylesheet" href="{{ asset('isolation/css/bootstrap.min.css') }}">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="{{ asset('isolation/fonts/icomoon/icomoon.css') }}">
+    <!-- bibliothèque css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('isolation/css/animations.css') }}">
     <link rel="stylesheet" href="{{ asset('isolation/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('isolation/css/main.css') }}" class="color-switcher-link">
@@ -41,7 +45,10 @@
     </style>
     @livewireStyles
     <link rel="stylesheet" href="{{ asset('app/css/app.css') }}">
-
+    <script src="{{ asset('isolation/js/compressed.js') }}" defer></script>
+    <script src="{{ asset('isolation/js/main.js') }}" defer></script>
+    <script src="{{ asset('isolation/js/switcher.js') }}" defer></script>
+    <script src="{{ asset('app/js/app.js') }}" defer></script>
 </head>
 
 <body>
@@ -74,10 +81,6 @@
 <!-- Scripts -->
 
 @stack('scripts')
-<script src="{{ asset('isolation/js/compressed.js') }}" ></script>
-<script src="{{ asset('isolation/js/main.js') }}" ></script>
-<script src="{{ asset('isolation/js/switcher.js') }}" ></script>
-<script src="{{ asset('app/js/app.js') }}" ></script>
 
 @livewireScripts
 <!-- Start of LiveChat (www.livechatinc.com) code -->
