@@ -17,11 +17,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
     <meta name="description" content="">
+    <meta name="description" content="" />
+    <meta name="keywords" content="a isolation, comble perdu, combles amenagees, combles perdues, entreprise
+    isolation, combles amenageables, combles amenageables, en isolation" />
+
     <link rel="icon" href="{{ asset('app/images/logo-eco.ico') }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <!-- preload -->
     <link rel="preload"
           as="style"
@@ -44,7 +46,7 @@
           href="{{ asset('isolation/css/font-awesome.css') }}">
     <link rel="preload"
           as="style"
-          href="{{ asset('app/css/app.css') }}" class="color-switcher-link">
+          href="{{ asset('app/css/app.css') }}">
     <link rel="preload"
           as="style"
           href="{{ asset('isolation/css/main.css') }}" class="color-switcher-link">
@@ -86,10 +88,6 @@
     <link rel="stylesheet" href="{{ asset('app/css/app.css') }}">
 
     <!-- scripts -->
-    <script src="{{ asset('isolation/js/compressed.js') }}" ></script>
-    <script src="{{ asset('isolation/js/main.js') }}" ></script>
-    <script src="{{ asset('isolation/js/switcher.js') }}" ></script>
-    <script src="{{ asset('app/js/app.js') }}" ></script>
 </head>
 
 <body style="font-display:Swap !important;">
@@ -121,12 +119,14 @@
 </div>
 <!-- Scripts -->
 
+<script src="{{ asset('isolation/js/compressed.js') }}" ></script>
+<script src="{{ asset('isolation/js/main.js') }}" ></script>
+<script src="{{ asset('isolation/js/switcher.js') }}" ></script>
+<script src="{{ asset('app/js/app.js') }}" ></script>
 @stack('scripts')
 
 
 @livewireScripts
-
-
 </body>
 
 </html>
