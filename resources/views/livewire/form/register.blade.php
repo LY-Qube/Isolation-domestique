@@ -9,7 +9,7 @@
                 <div class="form-group has-placeholder">
                     <label for="name">Nom et Prénom <span class="required">*</span></label>
                     <i class="fa fa-user"></i>
-                    <input type="text" aria-required="true" size="30" wire:model="contact.name"
+                    <input type="text"  aria-required="true" size="30" wire:model="contact.name"
                            name="name" id="name" class="form-control @error('contact.name') border-danger @enderror"
                            placeholder="Nom et Prénom">
                     @error('contact.name')

@@ -21,11 +21,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- Font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900">
+
+    <!-- preload -->
+    <link rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap">
+    <link rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900">
+    <link rel="preload"
+          as="style"
+          href="{{ asset('isolation/fonts/icomoon/icomoon.css') }}">
+
+    <link rel="preload"
+          as="style"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="preload"
+          as="style"
+          href="{{ asset('isolation/css/animations.css') }}">
+    <link rel="preload"
+          as="style"
+          href="{{ asset('isolation/css/font-awesome.css') }}">
+    <link rel="preload"
+          as="style"
+          href="{{ asset('app/css/app.css') }}" class="color-switcher-link">
+    <link rel="preload"
+          as="style"
+          href="{{ asset('isolation/css/main.css') }}" class="color-switcher-link">
+
+    <link rel="preload"
+          as="script"
+          href="{{ asset('isolation/js/vendor/modernizr-2.6.2.min.js')  }}">
     <link rel="stylesheet" href="{{ asset('isolation/fonts/icomoon/icomoon.css') }}">
-    <!-- bibliothèque css -->
+    <link rel="preload" as="script" href="{{ asset('isolation/js/compressed.js') }}" >
+    <link rel="preload" as="script" href="{{ asset('isolation/js/main.js') }}" >
+    <link rel="preload" as="script" href="{{ asset('isolation/js/switcher.js') }}" >
+    <link rel="preload" as="script" href="{{ asset('app/js/app.js') }}" >
+    <!-- Font -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900">
+    <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('isolation/css/animations.css') }}">
     <link rel="stylesheet" href="{{ asset('isolation/css/font-awesome.css') }}">
@@ -38,6 +75,8 @@
     <script src="{{ asset('isolation/js/vendor/respond.min.js') }}"></script>
     <script src="{{ asset('isolation/js/vendor/jquery-1.12.4.min.js') }}"></script>
     <![endif]-->
+
+
     <style>
         #switcher {
             visibility: hidden;
@@ -45,13 +84,15 @@
     </style>
     @livewireStyles
     <link rel="stylesheet" href="{{ asset('app/css/app.css') }}">
-    <script src="{{ asset('isolation/js/compressed.js') }}" defer></script>
-    <script src="{{ asset('isolation/js/main.js') }}" defer></script>
-    <script src="{{ asset('isolation/js/switcher.js') }}" defer></script>
-    <script src="{{ asset('app/js/app.js') }}" defer></script>
+
+    <!-- scripts -->
+    <script src="{{ asset('isolation/js/compressed.js') }}" ></script>
+    <script src="{{ asset('isolation/js/main.js') }}" ></script>
+    <script src="{{ asset('isolation/js/switcher.js') }}" ></script>
+    <script src="{{ asset('app/js/app.js') }}" ></script>
 </head>
 
-<body>
+<body style="font-display:Swap !important;">
 <!--[if lt IE 9]>
 <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser.
     Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a>
@@ -82,15 +123,8 @@
 
 @stack('scripts')
 
+
 @livewireScripts
-<!-- Start of LiveChat (www.livechatinc.com) code -->
-<script defer>
-    window.__lc = window.__lc || {};
-    window.__lc.license = 12666471;
-    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
-</script>
-<noscript><a href="https://www.livechatinc.com/chat-with/12666471/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-<!-- End of LiveChat code -->
 
 
 </body>

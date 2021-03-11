@@ -73,7 +73,7 @@
                                         dûment recensés comme faisant partie des entreprises Reconnues Garantes de
                                         l’Environnement (RGE), à jour de leur garantie décennale. Nous vérifions ensuite
                                         qu’ils sont bien recensés sur la plateforme gouvernementale
-                                        <a href="http://www.faire.gouv.fr" target="_blank">faire.gouv.fr</a>.
+                                        <a href="http://www.faire.gouv.fr" target="_blank" rel="noopener">faire.gouv.fr</a>.
                                     </p>
                                 </div>
                             </div>

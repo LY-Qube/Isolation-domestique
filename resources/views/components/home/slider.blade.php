@@ -4,7 +4,8 @@
             <ul class="slides">
                 <li class="cover-image">
                     <span class="flexslider-overlay"></span>
-                    <img src="{{ asset('app/images/full/slide04.webp') }}" alt="{{ config('app.name') }}">
+                    <img src="{{ asset('app/images/full/slide04.webp') }}" height="auto" width="100%"
+                         alt="{{ config('app.name') }}">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
